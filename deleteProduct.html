@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory Management System</h1>
+        <div class="form-container">
+            <h2>Delete Product</h2>
+            <form id="deleteProductForm">
+                <label for="productIdToDelete">Product ID to Delete:</label>
+                <input type="text" id="productIdToDelete" name="productIdToDelete" required>
+                <button type="button" onclick="deleteProduct()">Delete Product</button>
+                <button type="button" onclick="exit()">Exit</button>
+            </form>
+              </div>
+             <div class="button-container">
+            <button type="button" onclick="window.location.href = 'Addproduct.html'">Add Product</button>
+            <button type="button" onclick="window.location.href = 'Updateproduct.html'">Update Product</button>
+       
+          
+        </div>
+        <div class="product-list">
+            <h2>Product List</h2>
+            <ul id="productList">
+                <!-- Product items will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

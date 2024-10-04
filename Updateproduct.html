@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Product - Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Update Product</h1>
+        <div class="form-container">
+            <form id="updateProductForm">
+                <label for="productIdToUpdate">Product ID:</label>
+                <input type="text" id="productIdToUpdate" name="productIdToUpdate" required>
+                <label for="productName">New Product Name:</label>
+                <input type="text" id="productName" name="productName" required>
+                <label for="newQuantity">New Quantity:</label>
+                <input type="number" id="newQuantity" name="newQuantity" required>
+                <label for="newPrice">New Price:</label>
+                <input type="number" id="newPrice" name="newPrice" step="0.01" required>
+                <button type="button" onclick="updateProduct()">Update Product</button>
+            </form>
+            </div>
+             <div class="button-container">
+            <button type="button" onclick="window.location.href = 'Addproduct.html'">Add Product</button>
+            <button type="button" onclick="window.location.href = 'deleteProduct.html'">Delete Product</button>
+            <button type="button" onclick="window.location.href = 'exitPage.html'">Exit</button>
+        
+        </div>
+          <div class="product-list">
+            <h2>Product List</h2>
+            <ul id="productList">
+
+            </ul>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #c59a6f;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(211, 9, 9, 0.1);
+}
+h1, h2 {
+    text-align: center;
+}
+.form-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(240, 22, 22, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+form button,
+.button-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c59a6f;
+    color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+form button:hover,
+.button-container button:hover {
+    background-color: #53402c;
+}
+.product-list {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: 500;
+}
+li:hover {
+    background-color: #f2f2f2;
+}
